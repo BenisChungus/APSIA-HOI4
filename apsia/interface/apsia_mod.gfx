@@ -1,0 +1,6 @@
+spriteTypes = { 
+	spriteType = {
+		name = "GFX_apsia_flag_1989"
+		texturefile = "gfx/interface/apsia_flag_1989.dds"
+	}
+}
