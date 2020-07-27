@@ -1,0 +1,89 @@
+﻿capital = 292
+set_research_slots = 3
+set_stability = 40
+set_war_support = 20
+#Starting tech
+set_technology = {
+}
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 500
+
+	#complete_national_focus = YOUR_FOCUS_ID
+	#complete_national_focus = YOUR_FOCUS_ID
+
+	set_technology = {
+	}
+	#set_convoys = 100
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 10
+	communism = 20
+	neutrality = 60
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1936.2.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 10
+		fascism = 10
+		communism = 20
+		neutrality = 60
+	}
+}
+
+#Create country leader - Emperor Haldune III
+create_country_leader = {
+	name = "Emperor Haldune III"
+	#Custom image for Emperor Haldune III
+	picture = "emperor_haldune_iii-33057.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = { }
+}
+
+#Create country leader - Benaiah Yashenkelstein
+create_country_leader = {
+	name = "Benaiah Yashenkelstein"
+	#Custom image for Benaiah Yashenkelstein
+	picture = "benaiah_yashenkelstein-33056.dds"
+	expire = "1965.1.1"
+	ideology = anti_revisionism
+	traits = { }
+}
+
+#Create country leader - Salam Ab-Kubar
+create_country_leader = {
+	name = "Salam Ab-Kubar"
+	#Custom image for Salam Ab-Kubar
+	picture = "salam_abkubar-33049.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = { }
+}
+
+#Create country leader - Paul Benis
+create_country_leader = {
+	name = "Paul Benis"
+	#Custom image for Paul Benis
+	picture = "paul_benis-33055.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = { }
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=765
+	name="STATE_765"
+	manpower = 51600
+	state_category = pastoral
+	resources={
+		oil=57
+		aluminium=14
+	}
+
+	history={
+		#owner = ENG
+		victory_points = {
+			8051 1
+		}
+		buildings = {
+			infrastructure = 2
+			8051 = {
+				naval_base = 2
+			}
+		}
+
+##State edits start
+
+##State edit for YAH after 1936.1.1
+1936.1.1 = {
+	add_core_of = YAH
+	owner = YAH
+	controller = YAH
+}
+
+##State edits end
+
+}provinces={
+		8051
+	}
+}
