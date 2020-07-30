@@ -1,1 +1,4 @@
-YAH = "countries/Yahel.txt"
+YAH = "countries/Ghabar.txt"
+SLM = "countries/Ghabar.txt"
+OGZ = "countries/Ghabar.txt"
+GHB = "countries/Ghabar.txt"
