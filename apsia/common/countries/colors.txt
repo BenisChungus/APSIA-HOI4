@@ -720,3 +720,23 @@ GHB = {
 	color = rgb { 107 152 123 }
 	color_ui = rgb { 107 152 123 }
 }
+FRS = {
+	color = rgb { 3  99  135 }
+	color_ui = rgb { 3  99  135 }
+}
+LCH = {
+	color = rgb { 42  63  100 }
+	color_ui = rgb { 42  63  100 }
+}
+NCE = {
+	color = rgb { 45  51  198 }
+	color_ui = rgb { 45  51  198 }
+}
+PRS = {
+	color = rgb { 57  113  228 }
+	color_ui = rgb { 57  113  228 }
+}
+PVY = {
+	color = rgb { 2  144  165 }
+	color_ui = rgb { 2  144  165 }
+}
