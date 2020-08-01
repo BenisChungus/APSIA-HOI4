@@ -1,0 +1,5 @@
+PVY = "countries/Pontivy.txt"
+FRS = "countries/Froussard.txt"
+LCH = "countries/Lache.txt"
+PRS = "countries/Paris.txt"
+NCE = "countries/Nice.txt"
