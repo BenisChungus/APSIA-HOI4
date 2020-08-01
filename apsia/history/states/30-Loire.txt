@@ -1,0 +1,26 @@
+
+state={
+	id=30
+	name="STATE_30"
+	manpower = 888400
+
+	state_category = town
+
+	history={
+		owner = LCH
+
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+		}
+		add_core_of = FRA
+		add_core_of = LCH
+		add_core_of = PRS
+	}
+
+	provinces={
+		527 3495 3509 3523 6533 9492 11463
+	}
+}

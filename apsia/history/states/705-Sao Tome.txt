@@ -1,0 +1,26 @@
+state={
+	id=705
+	name="STATE_705"
+	manpower=104725	
+	state_category = tiny_island
+
+	history={
+		owner = PVY
+		victory_points = {
+			1903 1 
+		}
+		buildings = {
+			infrastructure = 2
+			1903 = {
+				naval_base = 1
+			}
+			13015 ={
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		1903 13015 
+	}
+}

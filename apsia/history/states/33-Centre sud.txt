@@ -1,0 +1,26 @@
+
+state={
+	id=33
+	name="STATE_33"
+	manpower = 636400
+	
+	state_category = town
+
+	history={
+		
+		owner = OCC
+		victory_points = {
+			620 5
+		}
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = FRA
+		add_core_of = OCC
+		add_core_of = LCH
+	}
+
+	provinces={
+		620 625 3598 3621 3771 6618 6648 9734 9751 11718  
+	}
+}
