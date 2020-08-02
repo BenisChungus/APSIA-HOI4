@@ -1,0 +1,101 @@
+focus_tree = {
+	id = focus_yahel
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = YAH
+		}
+	}
+	#Focus for Inviting Pavlovski Advisors
+	focus = {
+		id = YAH_inviting_pavlovski_advisors
+		icon = GFX_goal_support_communism
+		x = 0
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = YAH_something_entirely_new }
+		ai_will_do = {
+			factor = 4
+		}
+		completion_reward = {
+			add_timed_idea= { 
+idea = YAH_idea_pav_advisors 
+days = 365 
+}
+		}
+	}
+
+	#Focus for Addressing The Monarchy
+	focus = {
+		id = YAH_addressing_the_monarchy
+		icon = GFX_goal_generic_demand_territory
+		x = 9
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power= 100
+		}
+	}
+
+	#Focus for Consolidating Power
+	focus = {
+		id = YAH_consolidating_power
+		icon = GFX_goal_generic_political_pressure
+		x = 15
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = YAH_addressing_the_monarchy }
+		mutually_exclusive = { focus = YAH_something_entirely_new }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_popularity= { 
+ideology = fascism 
+popularity = 0.1 
+}
+add_popularity= { 
+ideology = communism 
+popularity = -0.1 
+}
+add_popularity= { 
+ideology = democratic 
+popularity = -0.1 
+}
+		}
+	}
+
+	#Focus for Something Entirely New
+	focus = {
+		id = YAH_something_entirely_new
+		icon = GFX_goal_support_democracy
+		x = 3
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = YAH_addressing_the_monarchy }
+		mutually_exclusive = { focus = YAH_consolidating_power }
+		ai_will_do = {
+			factor = 3
+		}
+		completion_reward = {
+			add_popularity= { 
+ideology = communism 
+popularity = 0.15 
+}
+add_popularity= { 
+ideology = democratic 
+popularity = 0.15 
+}
+		}
+	}
+
+#End of focuses 
+ }
