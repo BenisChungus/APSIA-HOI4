@@ -720,6 +720,18 @@ GHB = {
 	color = rgb { 107 152 123 }
 	color_ui = rgb { 107 152 123 }
 }
+HBS = {
+	color = rgb { 153 108 174 }
+	color_ui = rgb { 153 108 174 }
+}
+MBL = {
+	color = rgb { 0 191 255 }
+	color_ui = rgb { 0 191 255 }
+}
+CPR = {
+	color = rgb { 255 211 0 }
+	color_ui = rgb { 255 211 0 }
+}
 FRS = {
 	color = rgb { 3  99  135 }
 	color_ui = rgb { 3  99  135 }
@@ -739,4 +751,40 @@ PRS = {
 PVY = {
 	color = rgb { 2  144  165 }
 	color_ui = rgb { 2  144  165 }
+}
+GTY = {
+	color = rgb { 183 0 54 }
+	color_ui = rgb { 183 0 54 }
+}
+OHI = {
+	color = rgb { 205 160 83 }
+	color_ui = rgb { 205 160 83 }
+}
+LAK = {
+	color = rgb { 139 72 12 }
+	color_ui = rgb { 139 72 12 }
+}
+USP = {
+	color = rgb { 250 156 0 }
+	color_ui = rgb { 250 156 0 }
+}
+AFD = {
+	color = rgb { 169 169 168 }
+	color_ui = rgb { 169 169 168 }
+}
+TXC = {
+	color = rgb { 122 146 218 }
+	color_ui = rgb { 122 146 218 }
+}
+ANT = {
+	color = rgb { 255 85 174 }
+	color_ui = rgb { 255 85 174 }
+}
+TOL = {
+	color = rgb { 107 81 0 }
+	color_ui = rgb { 107 81 0 }
+}
+BRN = {
+	color = rgb { 77 95 183 }
+	color_ui = rgb { 77 95 183 }
 }
