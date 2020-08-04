@@ -1,0 +1,34 @@
+state={
+	id=332
+	name="STATE_332"
+	
+	state_category = wasteland
+
+	history={
+		#owner = ENG
+		buildings = {
+			infrastructure = 1
+
+			12503 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CAN
+
+##State edits start
+
+##State edit for ANT after 1936.1.1
+1936.1.1 = {
+	add_core_of = ANT
+	owner = ANT
+	controller = ANT
+}
+
+##State edits end
+}
+provinces={
+		1426 1785 4720 4787 12503 13165 13180 
+	}
+	manpower=22179
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=48
+	name="STATE_48"
+	manpower = 1891500
+	resources={
+		aluminium=1 # was: 2
+	}
+	
+	
+	state_category = city
+
+	history={
+		#owner = BUL
+		victory_points = {
+			949 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 6
+			air_base = 3
+		}
+		add_core_of = BUL
+
+##State edits start
+
+##State edit for CPR after 1936.1.1
+1936.1.1 = {
+	add_core_of = CPR
+	owner = CPR
+	controller = CPR
+}
+
+##State edits end
+}
+provinces={
+		793 935 949 965 3908 3971 6857 9771 9818 11754 
+	}
+}

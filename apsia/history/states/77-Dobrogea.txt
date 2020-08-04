@@ -1,0 +1,35 @@
+
+state={
+	id=77
+	name="STATE_77"
+	manpower = 378000
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			11597 1
+		}
+		#owner = ROM
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		add_core_of = ROM
+		add_claim_by = BUL
+
+##State edits start
+
+##State edit for CPR after 1936.1.1
+1936.1.1 = {
+	add_core_of = CPR
+	owner = CPR
+	controller = CPR
+}
+
+##State edits end
+}
+provinces={
+		9614 11597 
+	}
+}
