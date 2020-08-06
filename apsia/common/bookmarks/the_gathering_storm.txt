@@ -1,3 +1,5 @@
+#ATTENTION: This bookmark is off-screen in-game, and as such should be given SECONDARY importance when editing bookmarks, although edits should still be copied to this document.
+
 bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
