@@ -1,3 +1,5 @@
+# ATTENTION: This bookmark is the one that shows up in the middle of the select screen. As such, it should be edited FIRST, before the_gathering_storm.
+
 bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
