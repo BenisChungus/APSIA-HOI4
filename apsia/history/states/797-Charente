@@ -1,37 +1,36 @@
-
 state={
-	id=19
-	name="STATE_19"
-	manpower = 2040400
+	id=797
+	name="STATE_797"
+	manpower = 700000
 	resources={
-		steel=35 # was: 40
-		aluminium=11 # was: 18
+		steel=6 
 	}
 	
-	state_category = city
+	state_category = large_town
 
 	history={
 		owner = PVY
-		victory_points = {
-			9737 20
-		}
 
+		victory_points = {
+			6657 5
+		}
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			dockyard = 1
-			air_base = 3
-			industrial_complex = 2
-			9737 = {
+			air_base = 1
+			industrial_complex = 1
+			6657 = {
 				naval_base = 3
-				coastal_bunker = 1
 			}
+
 		}
 		add_core_of = FRA
+		add_core_of = LCH
 		add_core_of = PVY
 	}
 
 	provinces={
-		743 6621 6762 6777  9710 9737 11565 
+		595 6657 9597 11582 
 	}
 }
