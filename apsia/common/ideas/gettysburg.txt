@@ -1,4 +1,29 @@
 ideas = {
+
+	country = {
+
+		GTY_idea_men_must_serve = {
+
+			picture = generic_infantry_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				conscription = 0.015
+			}
+		}
+
+
 	political_advisor = {
 	}
 

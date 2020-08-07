@@ -1,0 +1,28 @@
+focus_tree = {
+	id = gettysburg_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GTY
+		}
+	}
+	#Focus for A Speech For The Republic
+	focus = {
+		id = GTY_a_speech_for_the_republic
+		icon = GFX_focus_generic_soviet_politics
+		x = 11
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05
+add_war_support= 0.05
+		}
+	}
+
+#End of focuses 
+ }

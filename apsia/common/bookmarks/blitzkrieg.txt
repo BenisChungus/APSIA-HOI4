@@ -2,43 +2,25 @@
 
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "NEW_WORLD_NAME"
+		desc = "NEW_WORLD_DESC"
 		date = 1989.1.1.12
 		picture = "GFX_apsia_flag_1989"
-		default_country = "GER"
+		default_country = "GTY"
 		default = yes
 		
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { NOT = { has_dlc = "La Resistance" } }
+		"GTY"={
+			history = "GTY_NEW_WORLD_DESC"
+			ideology = communist
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+				GTY_idea_men_must_serve
+				
 			}
 			focuses = {
-				FRA_form_the_popular_front
-				FRA_revive_the_national_bloc
-				FRA_france_leads
+				
 			}
 		}
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { has_dlc = "La Resistance" } 
-			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
-			}
-			focuses = {
-				FRA_invite_communist_ministers
-				FRA_utilize_the_leagues
-				FRA_je_suis_la_deluge
-			}
-		}
+
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = democratic
