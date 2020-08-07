@@ -1,22 +1,11 @@
 capital = 447
-set_research_slots = 3
-set_stability = 25
-set_war_support = 35
+set_research_slots = 2
+set_stability = 0.25
+set_war_support = 0.35
 #Starting tech
 set_technology = {
 }
 
-#For start date 1939.1.1
-1989.1.1.12 = {
-	add_political_power = 500
-
-	#complete_national_focus = YOUR_FOCUS_ID
-	#complete_national_focus = YOUR_FOCUS_ID
-
-	set_technology = {
-	}
-	#set_convoys = 100
-}
 
 #Politics for 1936.1.1
 set_politics = {
@@ -30,20 +19,4 @@ set_popularities = {
 	fascism = 0
 	communism = 60
 	neutrality = 25
-}
-
-#Politics for 1939.1.1
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1936.2.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 15
-		fascism = 0
-		communism = 60
-		neutrality = 25
-	}
 }
