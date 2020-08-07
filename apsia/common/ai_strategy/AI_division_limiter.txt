@@ -6,6 +6,16 @@
 ###------------------------------
 ###Limits the amount of divisions an AI country has to the number of factories (civ, mil, nav) it has
 ###If your mod adds new unit types, make sure to add them in as well
+###
+###Usage: create an is_exempt_from_division_limit scripted trigger (common/scripted_triggers) to exempt countries from being limited (eg. while at war etc.)
+###Example scripted trigger:
+###is_exempt_from_division_limit = {
+###	OR = {
+###		threat > 0.74
+###		is_major = yes
+###		has_war = yes
+###	}
+###}
 
 division_limiter = {
 	enable = {
