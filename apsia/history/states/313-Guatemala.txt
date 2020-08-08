@@ -32,15 +32,15 @@ state={
 
 ##State edit for TOL after 1936.1.1
 1936.1.1 = {
-	add_core_of = TOL
-	owner = TOL
-	controller = TOL
+	add_core_of = BRN
+	owner = BRN
+	controller = BRN
 }
 
 ##State edits end
 }
 provinces={
-		4991 10842 10886 13085 
+		10842 10886 13085 
 	}
 	
 }
