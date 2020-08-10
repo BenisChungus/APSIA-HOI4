@@ -22,6 +22,15 @@ ideas = {
 				communism_drift = 0.2
 			}
 		}
+		YAH_immigration = {
+
+			picture = generic_morale_bonus
+
+			modifier = {
+				monthly_population = 3
+			}
+		}
+
 
 
 	political_advisor = {
