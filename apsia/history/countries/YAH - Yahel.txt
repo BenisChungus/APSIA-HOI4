@@ -36,7 +36,7 @@ create_country_leader = {
 	#Custom image for Emperor Haldune III
 	picture = "emperor_haldune_iii-33057.dds"
 	expire = "1965.1.1"
-	ideology = moderatism
+	ideology = despotism
 	traits = { }
 }
 
@@ -46,7 +46,7 @@ create_country_leader = {
 	#Custom image for Benaiah Yashenkelstein
 	picture = "benaiah_yashenkelstein-33056.dds"
 	expire = "1965.1.1"
-	ideology = anti_revisionism
+	ideology = rykovianism
 	traits = { }
 }
 
@@ -56,7 +56,7 @@ create_country_leader = {
 	#Custom image for Salam Ab-Kubar
 	picture = "salam_abkubar-33052.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = conservatism
 	traits = { }
 }
 
@@ -66,6 +66,6 @@ create_country_leader = {
 	#Custom image for Paul Benis
 	picture = "paul_benis-33055.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = dictatorship
 	traits = { }
 }

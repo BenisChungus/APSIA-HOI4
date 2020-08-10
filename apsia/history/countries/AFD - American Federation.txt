@@ -24,6 +24,6 @@ create_country_leader = {
 	#Custom image for Brandon Fuckman
 	picture = "brandon_fuckman-35909.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = dictatorship
 	traits = { }
 }

@@ -26,6 +26,6 @@ create_country_leader = {
 	name = "King Bruno Mustafi"
 	picture = "Portrait_South_Africa_Moses_Kotane.dds"
 	expire = "1965.1.1"
-	ideology = moderatism
+	ideology = despotism
 	traits = { }
 }
