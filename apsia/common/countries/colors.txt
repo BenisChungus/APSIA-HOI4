@@ -788,3 +788,27 @@ BRN = {
 	color = rgb { 77 95 183 }
 	color_ui = rgb { 77 95 183 }
 }
+AGS = {
+	color = rgb { 96 60 0 }
+	color_ui = rgb { 96 60 0 }
+}
+STR = {
+	color = rgb { 12 110 226 }
+	color_ui = rgb { 12 110 226 }
+}
+VEL = {
+	color = rgb { 124 122 65 }
+	color_ui = rgb { 124 122 65 }
+}
+SAN = {
+	color = rgb { 217 112 42 }
+	color_ui = rgb { 217 112 42 }
+}
+TRJ = {
+	color = rgb { 33 177 79 }
+	color_ui = rgb { 33 177 79 }
+}
+ARC = {
+	color = rgb { 160 129 125 }
+	color_ui = rgb { 160 129 125 }
+}
