@@ -1,0 +1,32 @@
+state={
+	id=720
+	name="STATE_720"
+	manpower=30	
+	state_category = tiny_island
+	
+	history=
+	{
+		#owner = ENG
+		buildings = {
+			infrastructure = 1
+			10995 = {
+				naval_base = 1
+			}
+		}
+		add_claim_by = ARG
+
+##State edits start
+
+##State edit for STR after 1936.1.1
+1936.1.1 = {
+	add_core_of = STR
+	owner = STR
+	controller = STR
+}
+
+##State edits end
+}
+provinces={
+		10995 
+	}
+}

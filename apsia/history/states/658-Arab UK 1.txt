@@ -2,13 +2,13 @@
 state={
 	id=658
 	name="STATE_658"
-	manpower = 170200
+	manpower = 6631000
 	resources={
 		oil=48
 		aluminium=8
 	}
 	
-	state_category = pastoral
+	state_category = large_city
 
 
 	history={

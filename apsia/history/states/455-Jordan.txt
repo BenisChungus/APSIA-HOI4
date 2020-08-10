@@ -2,9 +2,9 @@
 state={
 	id=455
 	name="STATE_455"
-	manpower = 932000
+	manpower = 5956000
 	
-	state_category = rural
+	state_category = town
 	resources={
 		aluminium=3
 	}
@@ -19,7 +19,6 @@ state={
 			7151 1 
 		}
 
-		add_core_of = JOR
 
 ##State edits start
 
