@@ -1,0 +1,31 @@
+capital = 459
+set_research_slots = 2
+set_stability = 0.45
+set_war_support = 0.30
+#Starting tech
+set_technology = {
+}
+
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 15
+	communism = 0
+	neutrality = 75
+}
+
+#Create country leader - King Bruno Mustafi
+create_country_leader = {
+	name = "King Bruno Mustafi"
+	picture = "Portrait_South_Africa_Moses_Kotane.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = { }
+}
